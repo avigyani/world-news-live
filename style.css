@@ -93,7 +93,8 @@ form.contact input,form.contact textarea{width:100%;padding:10px;border:1px soli
 form.contact button{background:var(--red);color:#fff;border:0;font-weight:700;font-size:15px;padding:11px 22px;border-radius:6px;cursor:pointer;margin-top:16px}
 .topbar .wrap{flex-wrap:wrap}
 #google_translate_element{font-size:12.5px}
-#google_translate_element select{background:#fff;color:#0F2440;border:1.5px solid #0F2440;border-radius:6px;padding:9px 10px;font-size:14px;min-width:200px;max-width:100%;min-height:42px;cursor:pointer}
+#google_translate_element{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.lang-select{background:#fff;color:#0F2440;border:1.5px solid #0F2440;border-radius:6px;padding:9px 10px;font-size:14px;min-width:200px;max-width:100%;min-height:42px;cursor:pointer}
 .goog-te-banner-frame.skiptranslate{display:none!important}
 body{top:0!important}
 .goog-te-gadget{color:#fff!important}
