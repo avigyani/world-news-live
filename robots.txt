@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://avigyani.github.io/world-news-live/sitemap.xml
